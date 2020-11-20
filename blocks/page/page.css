@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Inter Regular";
+  src: url("../../fonts/Inter-Regular.otf"),
+    url("../../fonts/Inter-Regular.ttf"), url("../../fonts/Inter-Regular.woff"),
+    url("../../fonts/Inter-Regular.woff2");
+}
+
+@font-face {
+  font-family: "Inter Bold";
+  src: url("../../fonts/Inter-Bold.otf"), url("../../fonts/Inter-Bold.ttf"),
+    url("../../fonts/Inter-Bold.woff"), url("../../fonts/Inter-Bold.woff2");
+}
+
+@font-face {
+  font-family: "Inter V";
+  src: url("../../fonts/Inter-V.ttf"), url("../../fonts/Inter-V.woff"),
+    url("../../fonts/Inter-Bold.woff"), url("../../fonts/Inter-V.woff2");
+}
+
+.page {
+  max-width: 1280px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  font-family: "Inter V", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  background-color: var(--darkGrey);
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  overflow-x: hidden;
+}
