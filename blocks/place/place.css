@@ -7,26 +7,26 @@
 @import url("./__paragraph/_small/place__paragraph_small.css");
 
 .place {
-  margin: 0 auto 80px auto;
+  max-width: 100%;
+  margin: 0 0 80px 0;
+  padding: 0;
   display: grid;
-  grid-template-columns: repeat(2 1fr);
+  grid-template-columns: repeat(2, minmax(200px, calc(1fr - 40px)));
   grid-template-rows: repeat(2 auto);
+  gap: 48px 40px;
   grid-template-areas:
     "title link"
     "image text";
-  grid-gap: 48px 40px;
 }
 
 @media screen and (max-width: 1024px) {
   .place {
-    grid-gap: 48px 32px;
-    margin: 0 48px 73px 48px;
+    gap: 48px 32px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
-    grid-gap: 48px 28px;
     margin: 0 24px 73px 24px;
   }
 }
@@ -36,6 +36,6 @@
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    margin: 0 0 49px 0;
+    margin: 0 auto 49px auto;
   }
 }

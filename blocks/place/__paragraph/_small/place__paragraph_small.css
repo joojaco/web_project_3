@@ -8,6 +8,6 @@
 @media screen and (max-width: 620px) {
   .place__paragraph_small {
     font-size: 16px;
-    margin: 0 16px 26px 16px;
+    margin: 0 auto 26px auto;
   }
 }

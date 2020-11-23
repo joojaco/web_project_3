@@ -1,9 +1,9 @@
 .lead__image {
   max-width: 1005px;
-  width: calc(100vw - (100vw - 100%));
+  width: 100%;
   height: auto;
   margin: 0;
   padding: 0;
-  object-fit: cover;
+  object-fit: contain;
   object-position: top;
 }

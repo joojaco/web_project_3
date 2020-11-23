@@ -4,8 +4,7 @@
 @import url("./__background/cover__background.css");
 
 .cover {
-  max-width: 1184px;
-  max-height: 740px;
+  width: 100%;
   margin: 0 auto;
   padding: 0;
   color: var(--offWhite);
