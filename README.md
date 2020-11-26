@@ -9,3 +9,6 @@ This project explores building a static website about traveling the USA. Technol
 
 **Fixes**
 Bug fixes are currently under review and will bugs will be updated upon code review. 
+
+**Link to project:**
+https://shookcodes.github.io/web_project_3/
