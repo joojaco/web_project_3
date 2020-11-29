@@ -13,3 +13,15 @@
   justify-content: center;
   position: relative;
 }
+
+@media screen and (max-width: 1023px) {
+  .cover__background {
+    height: 640px;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  .cover__background {
+    height: 200px;
+  }
+}

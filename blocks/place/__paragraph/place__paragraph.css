@@ -8,23 +8,25 @@
   margin: 0 0 26px 0;
 }
 
-@media screen and (max-width: 1024px) {
+.place__paragraph:nth-child() {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1023px) {
   .place__paragraph {
     font-size: 16px;
     max-width: 456px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .place__paragraph {
-    font-size: 16px;
     max-width: 352px;
   }
 }
 
 @media screen and (max-width: 620px) {
   .place__paragraph {
-    font-size: 16px;
     max-width: 600px;
     width: 95%;
     margin: 0 auto 26px auto;

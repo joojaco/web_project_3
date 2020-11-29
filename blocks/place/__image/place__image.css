@@ -8,14 +8,14 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .place__image {
     max-width: 440px;
     max-height: 440px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .place__image {
     max-width: 330px;
     max-height: 330px;
@@ -26,5 +26,6 @@
   .place__image {
     max-width: 620px;
     max-height: 620px;
+    margin-top: 0;
   }
 }

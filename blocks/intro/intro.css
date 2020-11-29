@@ -1,22 +1,25 @@
 @import url("./__title/intro__title.css");
 @import url("./__text/intro__text.css");
-@import url("./__text/_small/intro__text_small.css");
+@import url("./__subtitle/intro__subtitle.css");
 @import url("./__list/intro__list.css");
-@import url("./__list/_bold/intro__list_bold.css");
+@import url("./__list-title/intro__list-title.css");
 
 .intro {
   margin: 92px auto 92px 100px;
   text-align: left;
   max-width: 690px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .intro {
-    margin: auto;
+    margin-left: 30px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .intro {
     max-width: 720px;
     margin: 88px auto;

@@ -3,7 +3,7 @@
   align-self: flex-start;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header__logo {
     transform: scale(0.84);
   }

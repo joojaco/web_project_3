@@ -11,15 +11,9 @@
   text-decoration: none;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 767px) {
   .cover {
-    margin-bottom: 92px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover {
-    max-width: 768px;
+    max-width: 767px;
     max-height: 480px;
     margin-bottom: 0;
   }
