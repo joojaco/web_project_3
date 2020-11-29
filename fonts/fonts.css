@@ -1,15 +1,4 @@
 @font-face {
-<<<<<<< HEAD
-  font-family: "Inter Regular";
-  src: url("./Inter-Regular.otf"), url("./Inter-Regular.ttf"),
-    url("./Inter-Regular.woff"), url("./Inter-Regular.woff2");
-}
-
-@font-face {
-  font-family: "Inter Black";
-  src: url("./Inter-Black.otf"), url("./Inter-Black.ttf"),
-    url("./Inter-Black.woff"), url("./Inter-Black.woff2");
-=======
   font-family: "Inter";
   src: url("./Inter.otf"), url("./Inter.ttf"), url("./Inter.woff"),
     url("./Inter.woff2");
@@ -29,5 +18,4 @@
   src: url("./Inter-Bold.otf"), url("./Inter-Bold.ttf"),
     url("./Inter-Bold.woff"), url("./Inter-Bold.woff2");
   font-weight: 700;
->>>>>>> updates
 }
