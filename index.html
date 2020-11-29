@@ -15,10 +15,10 @@
         alt="The USA logo"
       />
       <ul class="header__links">
-        <a href="#"
-          ><li class="header__lang-link header__lang-link_active">En</li></a
-        >
-        <a href="#" class="header__lang-link"><li>Es</li></a>
+        <li>
+          <a class="header__lang-link header__lang-link_active" href="#">En</a>
+        </li>
+        <li><a href="#" class="header__lang-link">Es</a></li>
       </ul>
     </header>
     <main>
@@ -38,10 +38,10 @@
         <h2 class="intro__title">
           Know the country you live in a little better
         </h2>
-        <p class="intro__text">
+        <p class="intro__subtitle">
           That's exactly what we have arranged for you via this travel story
         </p>
-        <p class="intro__text intro__text_small">
+        <p class="intro__text">
           Need more action and adventure in your life instead of the same old
           routine? From Portland, Maine to Portland, Oregon we're going to take
           you on an exciting journey through some unknown regions of your
@@ -55,23 +55,18 @@
         </p>
         <ul class="intro__list">
           <li>
-            <span class="intro__list intro__list_bold">Distance (miles)</span>
+            <span class="intro__list-title">Distance (miles)</span>
             3,644
           </li>
           <li>
-            <span class="intro__list intro__list_bold">Travel time (days)</span>
+            <span class="intro__list-title">Travel time (days)</span>
             22
           </li>
           <li>
-            <span class="intro__list intro__list_bold"
-              >Highest point (feet)</span
-            >
+            <span class="intro__list-title">Highest point (feet)</span>
             9,613
           </li>
-          <li>
-            <span class="intro__list intro__list_bold">Lowest point (feet)</span
-            > -3
-          </li>
+          <li><span class="intro__list-title">Lowest point (feet)</span> -3</li>
         </ul>
       </section>
       <section class="photo-grid">
@@ -137,7 +132,7 @@
         />
       </section>
       <section class="places">
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Maine</h2>
           <img
             class="place__image"
@@ -149,10 +144,12 @@
             <a
               class="place__link"
               href="https://global.llbean.com/shop/L.L.Bean-Continental-Rucksack/122952.html?bc=50-816&csp=f&feat=816-GN1"
+              target="_blank"
+              rel="noreferrer"
               >global.llbean.com</a
             >
           </div>
-          <article>
+          <div>
             <p class="place__paragraph">
               Still, as sparsely populated as it was in the 1600s, this is an
               extraordinary and highly underrated state full of rich history and
@@ -160,18 +157,18 @@
               sure not to miss. As your journey is going to be a long one, you
               had best be prepared for an arduous trek.
             </p>
-            <p class="place__paragraph place__paragraph_small">
+            <p class="place__paragraph place__paragraph_size_small">
               Thankfully, not only is Maine home to the very first European
               settlers on US territory in the era of Vikings, but is also home
               to L.L. Bean, which is a great company to grab a super sturdy
               backpack from for your 3-month expedition.
             </p>
-            <p class="place__paragraph place__paragraph_small">
+            <p class="place__paragraph place__paragraph_size_small">
               Average cost: $80-100.
             </p>
-          </article>
-        </div>
-        <div class="place">
+          </div>
+        </article>
+        <article class="place">
           <h2 class="place__title">New Hampshire</h2>
           <img
             class="place__image"
@@ -183,10 +180,12 @@
             <a
               class="place__link"
               href="https://www.timberland.com/timberlandpro.html"
+              target="_blank"
+              rel="noreferrer"
               >timberland.com</a
             >
           </div>
-          <article>
+          <div>
             <p class="place__paragraph">
               There's no better place to lose yourself in nature than in
               springtime New Hampshire. As serene and beautiful as it was in the
@@ -204,9 +203,9 @@
               better than cycling shoes when pitching a tent.
             </p>
             <p class="place__paragraph">Average cost: $100-150.</p>
-          </article>
-        </div>
-        <div class="place">
+          </div>
+        </article>
+        <article class="place">
           <h2 class="place__title">New York</h2>
           <img
             class="place__image"
@@ -215,16 +214,22 @@
           />
           <div class="place__website">
             <h4 class="place__url-heading">URL</h4>
-            <a class="place__link" href="https://www.ge.com/about-us">ge.com</a>
+            <a
+              class="place__link"
+              href="https://www.ge.com/about-us"
+              target="_blank"
+              rel="noreferrer"
+              >ge.com</a
+            >
           </div>
-          <article>
+          <div>
             <p class="place__paragraph">
               Not only famous for “The Big Apple,” the state of NY also has
               several other reasons for going down in history. Since the late
               1800s Schenectady, “The City that Lights and Hauls the World,” has
               been home to the world-famous General Electric Company.
             </p>
-            <p class="place__paragraph place__paragraph_small">
+            <p class="place__paragraph place__paragraph_size_small">
               This is where modern power generators were born as well as
               contemporary means of transmitting energy. So we figured this
               would be the perfect place to find a batteryless dynamo light for
@@ -232,9 +237,9 @@
               your adventure. Such a light from GE will set you back about
               $10-20.
             </p>
-          </article>
-        </div>
-        <div class="place">
+          </div>
+        </article>
+        <article class="place">
           <h2 class="place__title">Erie, PA</h2>
           <img
             class="place__image"
@@ -243,11 +248,15 @@
           />
           <div class="place__website">
             <h4 class="place__url-heading">URL</h4>
-            <a class="place__link" href="https://www.fws.gov/refuge/erie"
+            <a
+              class="place__link"
+              href="https://www.fws.gov/refuge/erie"
+              target="_blank"
+              rel="noreferrer"
               >www.fws.gov</a
             >
           </div>
-          <article>
+          <div>
             <p class="place__paragraph">
               Erie, Pennsylvania, not to be confused with the word “eerie,”
               although it can be from time to time, is another town worth
@@ -267,9 +276,9 @@
             <p class="place__paragraph">
               The current cost of a Hershey's Chocolate bar: about 60¢.
             </p>
-          </article>
-        </div>
-        <div class="place">
+          </div>
+        </article>
+        <article class="place">
           <h2 class="place__title">Ohio</h2>
           <img
             class="place__image"
@@ -278,11 +287,15 @@
           />
           <div class="place__website">
             <h4 class="place__url-heading">URL</h4>
-            <a class="place__link" href="https://www.cedarpoint.com"
+            <a
+              class="place__link"
+              href="https://www.cedarpoint.com"
+              target="_blank"
+              rel="noreferrer"
               >cedarpoint.com</a
             >
           </div>
-          <article>
+          <div>
             <p class="place__paragraph">
               From the college capital of Columbus to the clean coastline of
               Cleveland, Ohio is a truly hidden gem. Earthquakes are
@@ -299,9 +312,10 @@
             <p class="place__paragraph">
               The cost of a daily ticket: about $100.
             </p>
-          </article>
-        </div>
+          </div>
+        </article>
       </section>
+<<<<<<< HEAD
       <section class="cover">
         <div class="cover__background">
           <a
@@ -314,15 +328,45 @@
             within an iframe
           </p>
         </div>
+=======
+      <section class="cover cover__background">
+        <a
+          class="cover__overlay"
+          href="https://www.nps.gov/subjects/travelroute66/index.htm"
+          target="_blank"
+          rel="noreferrer"
+        ></a>
+        <h2 class="cover__title">Historic Route 66</h2>
+        <p class="cover__subtitle">
+          The Main Street of America from Santa Monica, Cal. to Chicago, Ill.
+          within an iframe
+        </p>
+>>>>>>> updates
       </section>
     </main>
     <footer class="footer">
       <nav class="footer__nav">
-        <a class="footer__link" href="https://yandex.com/maps">Maps</a>
-        <a class="footer__link" href="https://yandex.com/weather/moscow"
+        <a
+          class="footer__link"
+          href="https://yandex.com/maps"
+          target="_blank"
+          rel="noreferrer"
+          >Maps</a
+        >
+        <a
+          class="footer__link"
+          href="https://yandex.com/weather/moscow"
+          target="_blank"
+          rel="noreferrer"
           >Weather</a
         >
-        <a class="footer__link" href="https://calendar.yandex.ru">Calendar</a>
+        <a
+          class="footer__link"
+          href="https://calendar.yandex.ru"
+          target="_blank"
+          rel="noreferrer"
+          >Calendar</a
+        >
       </nav>
       <p class="footer__copyright">© 2020. Sarah Shook</p>
     </footer>

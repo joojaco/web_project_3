@@ -9,9 +9,10 @@
   max-width: 320px;
   text-decoration: none;
   color: var(--offWhite);
+  z-index: 200;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .cover__subtitle {
     font-size: 14px;
     line-height: 16px;

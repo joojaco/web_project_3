@@ -4,7 +4,7 @@
 
 .footer {
   max-width: 1184;
-  width: 90%;
+  width: 95%;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -12,7 +12,19 @@
   flex-grow: 1;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1279px) {
+  .footer {
+    max-width: 921px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 425px) {
   .footer {
     flex-direction: column;
     flex-wrap: wrap;
