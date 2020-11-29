@@ -20,7 +20,13 @@
   }
 }
 
-@media screen and (max-width: 435px) {
+@media screen and (max-width: 767px) {
+  .cover__background {
+    height: 480px;
+  }
+}
+
+@media screen and (max-width: 425px) {
   .cover__background {
     height: 200px;
   }
