@@ -1,6 +1,6 @@
 .place__paragraph {
   max-width: 484px;
-  width: 95%;
+  width: 100%;
   font-weight: 400;
   font-size: 18px;
   line-height: 29px;
@@ -8,23 +8,29 @@
   margin: 0 0 26px 0;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1279px) {
   .place__paragraph {
-    font-size: 16px;
-    max-width: 456px;
+    padding: 0;
+    max-width: 50vw;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1023px) {
   .place__paragraph {
-    max-width: 352px;
+    font-size: 16px;
   }
 }
 
 @media screen and (max-width: 620px) {
   .place__paragraph {
-    max-width: 600px;
-    width: 95%;
+    margin: 0 16px 26px 16px;
+    max-width: 88vw;
+  }
+}
+
+@media screen and (max-width: 310px) {
+  .place__paragraph {
     margin: 0 auto 26px auto;
+    width: 90vw;
   }
 }

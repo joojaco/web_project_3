@@ -3,7 +3,7 @@
 @import url("./__nav/footer__nav.css");
 
 .footer {
-  max-width: 1184;
+  max-width: 1184px;
   width: 95%;
   display: flex;
   justify-content: space-between;
