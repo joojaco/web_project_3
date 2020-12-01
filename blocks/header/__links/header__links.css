@@ -10,5 +10,6 @@
   .header__links {
     max-width: 60px;
     min-width: 56px;
+    margin-left: -20px;
   }
 }

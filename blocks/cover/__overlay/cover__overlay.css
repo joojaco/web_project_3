@@ -5,12 +5,18 @@
   z-index: 2;
   margin: 0;
   padding: 0;
-  background: #2a2c2f;
-  opacity: 0.3;
+  background: rgba(42, 44, 47, 0.3);
+  text-decoration: none;
+  text-align: center;
+  color: var(--offWhite);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .cover__overlay:hover,
 .cover__overlay:active {
-  opacity: 0.8;
-  z-index: 300;
+  background: rgba(42, 44, 47, 0.8);
+  color: var(--offWhite);
 }
